@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cow Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cow Information</h1>
+
+        <form id="CowForm">
+            <label for="cowName">Cow Name:</label>
+            <input type="text" id="cowName" name="cowName" placeholder="Enter Your Cow Name">
+
+            <label for="cowBreed">Cow Breed:</label>
+            <input type="text" id="cowBreed" name="cowBreed" placeholder="Enter Your Cow Breed">
+
+            <!-- Use an input of type date for DOB -->
+            <label for="DOB">DOB:</label>
+            <input type="date" id="DOB" name="DOB" placeholder="Enter Cow's DOB">
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result">
+            <!-- The user input will appear here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
